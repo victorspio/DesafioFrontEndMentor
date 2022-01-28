@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(228, 45%, 44%)
+}
+.quadrado{
+    box-shadow: -10px 15px 30px black;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 100px;
+    background-color: hsl(228, 54%, 31%);
+}
+.quadrado, .img1{
+    width: 230px;
+    border-radius: 5px;
+}
+.text{
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.text2{
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    color: rgb(158, 186, 199);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.img2{
+    margin-right: 5px;
+    float: left;
+}
+.content{
+    font-size: 15px;
+    margin-top: 20px;
+    float: left;
+}
+.text3{
+    font-family: 'Outfit', sans-serif;
+    color: turquoise;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 15px;
+}
+.content2{
+    margin-top: 19px;
+    font-size: 15px;
+    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.text4{
+    color: rgb(158, 186, 199);
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.img5{
+    border: 2px solid white;
+    border-radius: 50%;
+    border-color: white;
+    float: left;
+    width: 40px;
+}
+.text5{
+    transform: translateY(70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 50px;
+    color: rgb(158, 186, 199);
+}
